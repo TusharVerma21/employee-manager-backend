@@ -30,7 +30,8 @@ import com.tushar.demo.entity.Employee;
 import com.tushar.demo.model.EmployeeRequest;
 import com.tushar.demo.service.EmployeeService;
 
-@CrossOrigin(origins = "http://localhost:4200")
+//@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://spring-angular-employee.herokuapp.com")
 @RestController
 //@RequestMapping("/employees")
 public class EmployeeController {
